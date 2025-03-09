@@ -49,8 +49,7 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
 
 ### 3. Exploratory Data Analysis (EDA)
 - **Visualization:**  
-  - Scatter plots and heatmaps to examine the correlation between SDG ranks and happiness ranks.  
-  - Line charts to track changes in ranks over time for selected countries.  
+  - Using visualization techniques to illustrate correlations and trends.
 - **Statistical Analysis:**  
   - Correlation coefficients to assess the strength and direction of relationships.  
   - Clustering analysis to group countries based on similar patterns in happiness and SDG progress.
@@ -60,7 +59,6 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
   - To quantify the impact of SDG progress on happiness ranks.  
 - **Methods:**  
   - Linear regression to model the relationship between SDG ranks and happiness ranks.  
-  - Multiple regression to control for potential confounding factors such as GDP per capita and regional effects.
 
 ### 5. Reporting and Insights
 - **Key Findings:**  
