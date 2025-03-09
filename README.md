@@ -28,7 +28,7 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
 - **Overall SDG Rank:** This variable will indicate a country’s progress towards sustainability.
 - **Happiness Rank:** This variable will represent the perceived well-being of populations.
 
-
+##
 ## Plan
 ### 1. Data Collection
 - **Sources:**  
