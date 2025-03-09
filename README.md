@@ -32,9 +32,7 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
 
 ## Plan
 ### 1. Data Collection
-- **Sources:**  
-  - Happiness data will be collected from the World Happiness Report dataset on Kaggle.  
-  - SDG data will be obtained from the Sustainable Development Report dataset on Kaggle.  
+- **Sources:** World Happiness Report and Sustainable Development Report datasets from Kaggle.
 - **Consistency:**  
   - Only countries with data available for both happiness and SDG ranks for each year between 2015 and 2022 will be included.  
   - Missing data will be addressed using appropriate imputation methods or by excluding countries with significant gaps.
