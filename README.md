@@ -33,37 +33,22 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
 ## Plan
 ### 1. Data Collection
 - **Sources:** World Happiness Report and Sustainable Development Report datasets from Kaggle.
-- **Consistency:**  
-  - Only countries with data available for both happiness and SDG ranks for each year between 2015 and 2022 will be included.  
-  - Missing data will be addressed using appropriate imputation methods or by excluding countries with significant gaps.
+- **Consistency:** Include only countries with complete happiness and SDG data for the entire 2015–2022 period and exclude countries with extensive missing data.
 
 ### 2. Data Preparation and Cleaning
-- **Merging:**  
-  - The two datasets will be merged based on the country and year fields.  
-- **Handling Missing Values:**  
-  - Missing ranks will be addressed using mean or median imputation if gaps are minor.  
-  - Countries with extensive missing data will be excluded.  
-- **Normalization:**  
-  - Rank data may be normalized to ensure comparability between happiness and SDG ranks.
+- **Merging:** The two datasets will be merged based on the country and year fields.  
+- **Handling Missing Values:** Missing ranks will be addressed using mean or median imputation if gaps are minor.  
 
 ### 3. Exploratory Data Analysis (EDA)
-- **Visualization:**  
-  - Using visualization techniques to illustrate correlations and trends.
-- **Statistical Analysis:**  
-  - Correlation coefficients to assess the strength and direction of relationships.  
-  - Clustering analysis to group countries based on similar patterns in happiness and SDG progress.
+- **Visualization:** Use of visualization techniques to illustrate correlations and trends.
+- **Statistical Analysis:** Calculate correlation coefficients to measure the strength and direction of relationships; perform clustering analysis to identify groups of countries that shows similar happiness and SDG trends.
 
 ### 4. Regression Analysis
-- **Goal:**  
-  - To quantify the impact of SDG progress on happiness ranks.  
-- **Methods:**  
-  - Linear regression to model the relationship between SDG ranks and happiness ranks.  
+- **Goal:** To measure the impact of SDG progress on happiness ranks.  
+- **Methods:** Apply linear regression modeling to evaluate and quantify the relationship between SDG ranks and happiness ranks.
 
 ### 5. Reporting and Insights
-- **Key Findings:**  
-  - Summarize how SDG progress correlates with happiness ranks.  
-  - Highlight which SDGs (e.g., health, education, equality) have the most significant impact on happiness.  
-- **Recommendations:**  
-  - Suggestions for policymakers on prioritizing SDGs to enhance happiness.  
+- **Key Findings:** Summarize the relationship between sustainability and happiness, identifying which specific SDGs (such as health, education, and equality) most significantly influence happiness.  
+- **Recommendations:** Provide practical guidance regarding the prioritization of SDGs to effectively enhance national happiness.
 
 By following this plan, I aim to uncover actionable insights into how sustainable development efforts can effectively boost happiness levels globally.
