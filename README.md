@@ -4,6 +4,9 @@
 In this project, I will analyze the relationship between the Sustainable Development Goals (SDGs) rankings and World Happiness Rankings for countries between 2015 and 2022. The goal is to explore how progress towards sustainable development influences the perceived happiness of populations worldwide. I aim to identify patterns and correlations that might suggest that improvements in areas such as health, education, and economic equality (as outlined by the SDGs) are associated with higher happiness levels. Understanding these relationships can help policymakers prioritize actions that enhance both sustainability and well-being.
 
 
+## Motivation 
+Sustainable Development Goals (SDGs) aim to make the world fairer and healthier for everyone. Happiness and well-being are key parts of sustainable living, but we still don't fully understand how progress in sustainability directly affects people's happiness. Studying this connection can help governments and organizations choose actions that improve both sustainability and happiness.
+
 ## Description of Dataset
 ### 1. Happiness Data
 - **Source:** [World Happiness Report on Kaggle](https://www.kaggle.com/datasets/mathurinache/world-happiness-report)
