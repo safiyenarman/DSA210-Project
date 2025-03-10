@@ -41,7 +41,7 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
 
 ### 3. Exploratory Data Analysis (EDA)
 - **Visualization:** Use of visualization techniques to illustrate correlations and trends.
-- **Statistical Analysis:** Calculate correlation coefficients to measure the strength and direction of relationships; perform clustering analysis to identify groups of countries that shows similar happiness and SDG trends.
+- **Statistical Analysis:** Calculate correlation coefficients to measure the strength and direction of relationships; perform hypothesis testing to show that groups of countries that shows similar happiness and SDG trends.
 
 ### 4. Regression Analysis
 - **Goal:** To measure the impact of SDG progress on happiness ranks.  
