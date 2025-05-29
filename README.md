@@ -32,23 +32,36 @@ Sustainable Development Goals (SDGs) aim to make the world fairer and healthier 
 
 ## Plan
 ### 1. Data Collection
-- **Sources:** World Happiness Report and Sustainable Development Report datasets from Kaggle.
-- **Consistency:** Include only countries with complete happiness and SDG data for the entire 2015–2022 period and exclude countries with extensive missing data.
+- I will use datasets from the World Happiness Report and the Sustainable Development Report, both available on Kaggle.
+To ensure consistency, I will include only countries with complete data between 2019 and 2022, excluding those with extensive missing values.
 
 ### 2. Data Preparation and Cleaning
-- **Merging:** The two datasets will be merged based on the country and year fields.  
-- **Handling Missing Values:** Missing ranks will be addressed using mean or median imputation if gaps are minor.  
+- The datasets will be merged using country and year as key fields.
+For modeling purposes, I will retain only countries in the top and bottom SDG score ranges, removing those in the middle range.
+Missing values will be handled by dropping incomplete rows to ensure data quality.
+
 
 ### 3. Exploratory Data Analysis (EDA)
-- **Visualization:** Use of visualization techniques to illustrate correlations and trends.
-- **Statistical Analysis:** Calculate correlation coefficients to measure the strength and direction of relationships; perform hypothesis testing to show that groups of countries that shows similar happiness and SDG trends.
+- I will apply various visualization techniques (boxplots, histograms, scatter plots, and line graphs) to explore the trends and distributions in the data.
+I will also calculate correlation coefficients to investigate the strength of the relationship between SDG and happiness scores.
+Initial insights will guide the modeling strategy and help frame relevant hypotheses.
 
-### 4. Regression Analysis
-- **Goal:** To measure the impact of SDG progress on happiness ranks.  
-- **Methods:** Apply linear regression modeling to evaluate and quantify the relationship between SDG ranks and happiness ranks.
+
+### 4. Hypothesis Testing
+- I will test whether the relationship between SDG Scores and Happiness Scores is statistically significant using Pearson correlation and Welch’s T-tests.
+This will help validate whether higher SDG performance is associated with higher happiness levels.
+
+
+### 5. Machine Learning Modeling
+- To predict SDG performance categories, I will frame a binary classification problem using Happiness Score and Year as features.
+I plan to implement and compare Logistic Regression, Random Forest, and XGBoost classifiers.
+Model performance will be evaluated based on metrics like accuracy, recall, specificity, and AUC.
+
 
 ### 5. Reporting and Insights
-- **Key Findings:** Summarize the relationship between sustainability and happiness, identifying which specific SDGs (such as health, education, and equality) most significantly influence happiness.  
-- **Recommendations:** Provide practical guidance regarding the prioritization of SDGs to effectively enhance national happiness.
+- The final report will summarize key findings and identify whether sustainable development significantly aligns with national well-being.
+I will also reflect on the policy implications, suggesting how investment in SDGs could help increase national happiness.
+Future work may involve adding more predictors or extending the time range for a deeper analysis.
+
 
 By following this plan, I aim to uncover actionable insights into how sustainable development efforts can effectively boost happiness levels globally.
